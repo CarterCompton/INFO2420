@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>JavaScript Practice 1- Slideshow</title>
+
+<style type="text/css">
+
+.flashclass{
+	height: 200px;
+	width: 250px;
+	border: 5px solid orange;
+	padding: 5px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.flashclass img{
+	border-width: 0;
+}
+
+</style>
+
+<script type="text/javascript" src="transitionshow.js">
+/***********************************************
+* Random Transitions Slideshow- by JavaScript Kit (www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+***********************************************/
+</script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+var flashyshow=new flashyslideshow({
+	wrapperid: "myslideshow",
+	wrapperclass: "flashclass",
+	imagearray: [
+		["Images/Thumbnails/CoupleSailingSm.jpg", "", "", "Newlyweds Sailing"],
+		["Images/Thumbnails/PigSm.jpg", "", "", "Boy and His Pig"],
+		["Images/Thumbnails/SaladSm.jpg", "", "", "Yummy Salad"],
+		["Images/Thumbnails/StorkSm.jpg", "", "", "Stork at Sunset"]
+	],
+	pause: 2000,
+	transduration: 1000
+})
+
+</script>
+		
+</body>
+
+</html>
