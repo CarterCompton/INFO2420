@@ -1,0 +1,21 @@
+.center {
+	margin: 30px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Lucida Calligraphy";
+	color: #333333; /* darker text for better contrast */
+	font-size: 50px;
+}
+
+body {
+	text-decoration: none;
+	background-color: #fff8b0; /* soft yellow background */
+}
+
+hr {
+	background-color: #333333; /* matches text better */
+	height: 2px;
+}
